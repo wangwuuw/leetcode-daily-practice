@@ -8,6 +8,8 @@ import com.cavium.key.store.CaviumKeyStore;
 import com.cavium.provider.CaviumProvider;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import sun.jvm.hotspot.runtime.Bytes;
+
 import javax.crypto.BadPaddingException;
 import javax.crypto.Cipher;
 import javax.crypto.IllegalBlockSizeException;
