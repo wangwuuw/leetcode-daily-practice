@@ -5,7 +5,7 @@ import java.util.concurrent.ForkJoinPool;
 import java.util.concurrent.ForkJoinTask;
 import java.util.concurrent.RecursiveTask;
 
-public class Main {
+public class ForkJoin {
     public static void main(String[] args) throws Exception {
         // 创建2000个随机数组成的数组:
         long[] array = new long[2000];
