@@ -16,9 +16,9 @@ public class StackTest {
 		stack.add("4");
 		stack.add("5");
 		String peek = stack.peek();
-		stack.pop();
+		String pop = stack.pop();
 		System.out.println(peek);
-		System.out.println(peek);
+		System.out.println(pop);
 
 	}
 }
