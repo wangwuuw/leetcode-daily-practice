@@ -1,10 +1,9 @@
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.time.LocalDateTime;
-import java.time.ZoneId;
-import java.util.Date;
+
+
+import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.Random;
+import java.util.concurrent.ConcurrentHashMap;
+
 
 /**
  * @Author: wangwu
@@ -12,30 +11,19 @@ import java.util.Random;
  * @Description:
  */
 public class Test {
+
 	public static void main(String[] args) {
-		System.out.println(0x0080);
-
+		HashMap<Object, Object> hashmap = new HashMap<>();
+		hashmap.put(null,1);
+		hashmap.put(null,2);
+		Object o = hashmap.get(null);
+		System.out.println(o);
+		ConcurrentHashMap<String, String> map = new ConcurrentHashMap<>();
+		map.put("abc","123");
+		map.containsKey("abc");
+		String s = map.get("abc");
+		map.remove("abc");
+		System.out.println(800%1200);
 
 	}
-
-	static void callWhile(){
-
-
-	}
-	//	private static void setValue(Student student){
-////		student.setName("name");
-////		student.setId(111L);
-////	}
-	private static void setValue(Enum student){
-		student.name();
-	}
-
-
-
-	public static String randIP() {
-		Random random = new Random(System.currentTimeMillis());
-		return (random.nextInt(255) + 1) + "." + (random.nextInt(255) + 1) + "." + (random.nextInt(255) + 1) + "."
-				+ (random.nextInt(255) + 1);
-	}
-
 }
