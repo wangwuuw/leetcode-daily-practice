@@ -21,6 +21,7 @@ public class Test1 {
 	public static void main(String[] args) {
 		int[] ints = twoSum(new int[]{3,3}, 6);
 		System.out.println(Arrays.toString(ints));
+
 	}
 	public static int[] twoSum(int[] nums, int target) {
 		HashMap<Integer, Integer> map = new HashMap<>();
