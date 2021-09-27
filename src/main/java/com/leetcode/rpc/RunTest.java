@@ -13,6 +13,7 @@ public class RunTest {
                 rpcServer.start(10000);
             }
         }).start();
+        System.getProperties().put("jdk.proxy.ProxyGenerator.saveGeneratedFiles", "true");
         Tinterface tinterface = RPCclient.getRemoteProxyObj(Tinterface.class, new InetSocketAddress("localhost", 10000));
         System.out.println(tinterface.send("rpc 测试用例"));
 
