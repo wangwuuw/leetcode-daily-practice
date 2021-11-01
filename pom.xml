@@ -18,8 +18,8 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
-                    <source>11</source>
-                    <target>11</target>
+                    <source>8</source>
+                    <target>8</target>
                 </configuration>
             </plugin>
             <plugin>
@@ -31,9 +31,9 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <maven.compiler.source>11</maven.compiler.source>
-        <maven.compiler.target>11</maven.compiler.target>
-        <java.version>11</java.version>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+        <java.version>8</java.version>
         <javamail.version>1.6.0</javamail.version>
     </properties>
     <dependencies>
@@ -46,26 +46,26 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-        <dependency>
-            <groupId>com.aliyun</groupId>
-            <artifactId>hamcrest-core</artifactId>
-            <version>1.3</version>
-        </dependency>
-        <dependency>
-            <groupId>com.aliyun</groupId>
-            <artifactId>caviumjca-1.0.0-jar-with-dependencies</artifactId>
-            <version>1.0.0</version>
-        </dependency>
-        <dependency>
-            <groupId>com.aliyun</groupId>
-            <artifactId>hsm-test-1.0.0</artifactId>
-            <version>1.0.0</version>
-        </dependency>
-        <dependency>
-            <groupId>com.aliyun</groupId>
-            <artifactId>junit-4.12</artifactId>
-            <version>1.0.0</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>com.aliyun</groupId>-->
+<!--            <artifactId>hamcrest-core</artifactId>-->
+<!--            <version>1.3</version>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>com.aliyun</groupId>-->
+<!--            <artifactId>caviumjca-1.0.0-jar-with-dependencies</artifactId>-->
+<!--            <version>1.0.0</version>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>com.aliyun</groupId>-->
+<!--            <artifactId>hsm-test-1.0.0</artifactId>-->
+<!--            <version>1.0.0</version>-->
+<!--        </dependency>-->
+<!--        <dependency>-->
+<!--            <groupId>com.aliyun</groupId>-->
+<!--            <artifactId>junit-4.12</artifactId>-->
+<!--            <version>1.0.0</version>-->
+<!--        </dependency>-->
             <dependency>
                 <groupId>javax.mail</groupId>
                 <artifactId>javax.mail-api</artifactId>
