@@ -29,15 +29,15 @@ public class ReverseLinkedList {
 	}
 
 	public ListNode reverseList(ListNode head) {
-		ListNode prev = null;
+		ListNode pre = null;
 		ListNode curr = head;
-		while (curr != null){
+		while(curr !=null){
 			ListNode next = curr.next;
-			curr.next = prev;
-			prev = curr;
+			curr.next = pre;
+			pre = curr;
 			curr = next;
 		}
-		return prev;
+		return pre;
 	}
 
 	ListNode  createListNode(){

@@ -6,8 +6,8 @@
 public class Test {
 
 	public static void main(String[] args) {
-
-		System.out.println(0x02);
+		String join = String.join("-", String.valueOf(123), null, String.valueOf(11), null);
+		System.out.println(join);
 
 	}
 
